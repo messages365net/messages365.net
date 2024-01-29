@@ -13,5 +13,9 @@ public class MappingProfiles : Profile
         CreateMap<CreatePostDto, Post>();
         CreateMap<PostDto, PostCreated>();
 
+        CreateMap<Message, MessageDto>();
+        CreateMap<CreateMessageDto, Message>();
+        CreateMap<MessageDto, MessageCreated>();
+
     }
 }

@@ -1,8 +1,7 @@
+import React from 'react'
+import Listings from './Listings'
 
-import './Blink.css'
-import Listings from "./posts/Listings";
-
-export default function Home() {
+export default function page() {
   return (
     <div className='grid grid-cols-4 gap-4'>
 

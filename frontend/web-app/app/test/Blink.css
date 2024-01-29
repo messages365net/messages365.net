@@ -1,0 +1,24 @@
+
+  #header {
+    display: flex;
+    align-items: baseline;
+    margin: 15px;
+    font-family: monospace;
+  }
+  
+  
+   /* blinking cursor */
+  #cursor {
+    background: lime;
+    line-height: 17px;
+    margin-left: 3px;
+    animation: blink 0.8s infinite;
+    width: 2px;
+    height: 15px;
+  }
+  
+  @keyframes blink {
+    0% {background: transparent}
+    50% {background: #fff}
+    100% {background: transparent}
+  }

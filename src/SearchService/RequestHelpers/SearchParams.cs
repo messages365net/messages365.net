@@ -4,7 +4,7 @@ public class SearchParams
 {
     public string SearchTerm { get; set; }
     public int PageNumber { get; set; } = 1;
-    public int PageSize { get; set; } = 4;
+    public int PageSize { get; set; } = 89;
     public string Title { get; set; }
     public string Content { get; set; }
     public string Author { get; set; }

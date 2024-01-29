@@ -11,6 +11,7 @@ public class DataContext : DbContext
     }
 
     public DbSet<Post> Posts { get; set; }
+    public DbSet<Message> Messages { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
